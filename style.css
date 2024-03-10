@@ -1,3 +1,10 @@
-tb{
-    border: 3px solidrgb(12, 12, 12)k;
+.red {
+    background-color: #ddd2d2;
+}
+.blackblue {
+    color: #a200ff;
+
+}
+#hello{
+    color: #a200ff;
 }
