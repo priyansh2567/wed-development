@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Element Selector  */
+        div{
+            /* background-color: red; */
+        }
+
+        /* Class Selector  */
+        .red{
+            background-color: red;
+        }
+
+        /* Id Selector */
+        #green{
+            background-color: green;
+        }
+
+        /* Child Selectors  */
+        div > p {
+            color: blue;
+            background-color: brown;
+        }
+
+        /* Descendant Selector  */
+        div p {
+            color: blue;
+            background-color: brown;
+        }
+
+        /* Universal Selector */
+        * {
+            margin:0;
+            padding: 0;
+        }
+
+        /* Pseudo Selector  */
+        a:visited{
+            color: yellow
+        }
+
+        a:link {
+            color: green;
+        }
+
+        a:active{
+            background-color: red;
+        }
+
+        a:hover{
+            background-color: yellow;
+        }
+
+
+        p:first-child{
+            background-color: aqua;
+        }
+
+    </style>
+</head>
+
+<body>
+    <main class="one">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, dolor quis necessitatibus amet officia ex
+            tempora impedit, molestias laborum quod inventore soluta eveniet, rerum nisi at sed. Magnam, quod pariatur?
+        </p>
+    </main>
+    <div class="blue">
+        hello
+    </div>
+    <div>
+        <p>heloo how </p>
+    </div>
+
+    <div>
+        <article>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </article>
+    </div>
+    <div Id="o">
+        i am bro
+    </div>
+    <a href="https://www.google2.com">Go to Google</a>
+    <a href="https://www.facebook2.com">Go to Facebook</a>
+
+</body>
+
+</html>
