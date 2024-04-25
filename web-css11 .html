@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color:  red;
+        }
+         @media screen and (orientation:portrait) {
+             body{
+                border: 2px solid purple;
+                width: 120px;
+                height: 120px;
+            }
+         }
+        
+          @media only screen and (max-width: 455px){
+            body{
+                background-color: darkblue;
+
+            } 
+            
+        
+            .que{
+                flex-direction: column;
+            }
+        }
+        .que{
+            display: flex;
+        }
+         
+         .qu{
+            background-color: chartreuse;
+            width: 12px;
+            height: 12px;
+            margin: 2px;
+         }
+
+
+    </style>
+</head>
+<body>
+    <div class="que">
+<div class="qu"></div>
+<div class="qu"></div>
+<div class="qu"></div>
+    </div>
+    
+</body>
+</html>
