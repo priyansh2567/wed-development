@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .box:first-child{
+            background-color: aquamarine;
+        } */
+        /* .box:first-line{
+            background-color:aquamarine;
+        } */
+        /* p.box, [data-color="primary"]{
+            padding-top: 2px;
+        } */
+        .box:nth-child(odd){
+            background-color: burlywood;
+            color: brown;
+        }
+        .box:nth-last-child(3){
+            background-color: brown;
+            color: burlywood;
+        }
+        .boxe::before{
+            content: "jello ";
+            color: chartreuse;
+        }
+        .boxe::after{
+            content: "nello ";
+            color: chartreuse;
+        }
+        ::selection{
+            background-color: gold;
+            color: darkred;
+        }
+        .box::first-letter{
+            color: black;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 70px;
+        }
+        input::placeholder{
+            color: burlywood;
+            background-color: cornflowerblue;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="boxe">
+        <div data-color="primary" class="box">hello</div>
+        <div class="box">vello</div>
+        <div class="box">xello</div>
+        <input text="text" placeholder="text heir">
+    </div>
+    
+</body>
+</html>
