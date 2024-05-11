@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cantainer{
+            border: 2px solid purple;
+            width:50vw;
+            height: 50vh;
+            background-color: rgb(7, 159, 205);
+        }
+        .box{
+            width: 20vw;
+            height: 10vh;
+            background-color: burlywood;
+            border: 2px solid brown;
+            animation-name: asdf;
+            /* animation: asdf 1 cubic-bezier(0.23, 1, 0.320, 1) 1s 3 ; */
+            animation-duration: 2s;
+            animation-timing-function:cubic-bezier(0.785, 0.135, 0.15, 0.86);
+            animation-iteration-count: 2;
+            animation-delay: 1s;
+        }
+        @keyframes asdf{
+             0%{
+                transform: rotate(100deg);
+                background-color: brown;
+            }
+            20%{
+                transform: rotate(200deg);
+                background-color: green;
+            }
+            50%{
+                transform: rotate(220deg);
+                background-color: blue;
+            }
+            80%{
+                transform: rotate(300deg);
+            }
+            100%{
+                transform: rotate(310deg);
+            }
+
+        }
+        /* @keyframes work{
+            to{
+                background-color: brown;
+                transform: translate(120px, 50%);
+            }
+            
+        } */
+    </style>
+</head>
+<body>
+    <div class="cantainer">
+        <div class="box">box</div>
+
+    </div>
+    
+</body>
+</html>
