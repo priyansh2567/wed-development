@@ -6,19 +6,21 @@
     <title>Document</title>
 </head>
 <style>
-    .container{
+    .item{
         /* background-color: aquamarine; */
-        /* border: 2px solid brown; */
-        /* width: 100vw; */
-        /* height: 80vh; */
+        border: 2px solid brown;
+        width: 100vw;
+        height: 80vh;
+        color: aquamarine;
+        background-color: beige;
         /* border: 2px solid; */
         display: grid;
-        /* grid-template-columns: 100px 100px; */
-        /* grid-template-rows: 50px 50px 50px; */
+         grid-template-columns: 100px 100px; 
+        grid-template-rows: 50px 50px 50px 50px;
          /* grid-template-columns: repeat(3,100px);  */
-        /* grid-template-rows: repeat(1,40px); */ */
-        /* grid-template-columns: repeat(3, minmax(100px,2fr)); */
-        /* grid-template-columns: 1fr 1fr; */
+        /* grid-template-rows: repeat(1,40px);  */
+        /* grid-template-columns: repeat(3, minmax(10px,1fr)); */
+        /* grid-template-columns: 3fr 3fr; */
          /* justify-items: end; */
          /* justify-content: center; */
          /* align-items: end; */
@@ -26,9 +28,9 @@
           /* row-gap: 40px; */
           /* column-gap: 20px; */
           /* gap: 39px 20px; */
-          grid-template-areas: "nav nav nav"
+          /* grid-template-areas: "nav nav nav"
                                "side  artical artical  "
-                               "footer footer footer footer";
+                               "footer footer footer footer"; */
 
 
 
@@ -36,17 +38,17 @@
 
 
     }
-    .item{
+    /* .item{
         /* background-color: blueviolet;  */
         /* height: 33px; */
         /* width: 22px; */
         /* border: 2px solid; */
-        border: 2px solid sandybrown;
+        /* border: 2px solid sandybrown;  */
         
     
 
 
-    }
+    /* }
     .item-1{
         gride-are:nav;
         background-color: beige;
@@ -62,14 +64,15 @@
     .item-4{
         gride-are: nav;
         background-color: black;
-    }
-    /* .item-4{
-        /* grid-row: 1/2; */
+    } */
+    .item-4{
+        grid-row: 1/2;
         /* grid-column: 1/2; */
         /* background-color: brown; */
         /* SAME AS ABOUe */
         /* grid-row-end: 3;
-        grid-row-start: 1;  } */
+        grid-row-start: 1; */
+     }
 </style>
 <body>
     <div class="container">
@@ -78,6 +81,13 @@
     <div class="item item-2">12</div>
     <div class="item item-3">13</div>
     <div class="item item-4">14</div>
+    <div class="item item-4">14</div>
+    <div class="item item-4">14</div>
+    <div class="item item-4">14</div>
+    <div class="item item-4">14</div>
+    <div class="item item-4">14</div>
+    <div class="item item-4">14</div>
+
     <!-- <div class="item-4">13</div> -->
     <!-- <div class="item">11</div>
     <div class="item">12</div>
