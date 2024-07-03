@@ -1,0 +1,33 @@
+let tarik = new Date()
+// console.log(tarik.toString());
+// console.log(tarik.toDateString());
+// console.log(tarik.toLocaleString())
+
+let tarikdate = new Date("2023-12-23")
+// let myCreatedDate = new Date(2023, 0, 23)
+// let myCreatedDate = new Date(2023, 0, 23, 5, 3)
+// let myCreatedDate = new Date("2023-01-14")
+// let myCreatedDate = new Date("01-14-2023")
+// console.log(tarikdate.toLocaleString())
+
+
+let tarikdate2 = Date.now()
+
+// console.log(tarikdate2)
+// console.log(tarikdate2.toString())
+// console.log(tarikdate2.getTime())
+// console.log(Math.floor(Date.now() / 1000))
+
+
+let navetarik = new Date()
+console.log(navetarik);
+console.log(navetarik.getMonth())
+console.log(navetarik.getDay())
+console.log(navetarik.getFullYear())  
+
+navetarik.toLocaleString('defult',{
+  weekday: "long",
+})
+
+
+
