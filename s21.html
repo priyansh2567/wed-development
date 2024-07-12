@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: black;color: aliceblue;">
+  
+    <h1 class="he">the head</h1>
+    <h1 class="he">the head</h1>
+    <h1 class="he">the head</h1>
+    <div class="share">
+
+         <div></div>
+        <div class="date">M</div>
+        <div class="date">T</div>
+        <div class="date">W</div>
+        <div class="date">S</div>
+    </div>
+    <ul class="language">
+        <li>Javascript</li>
+    </ul>
+</body>
+<script>
+    // const hed = document.querySelectorAll('.he')
+    // console.log(hed)
+    // const bap = document.querySelector('.share')
+    // console.log(bap)
+    // console.log(bap.children)
+    // console.log(bap.children[2].innerHTML)
+    // for(let i = 0; i < bap.children.length; i++){
+    //     console.log(bap.children[i].innerHTML)
+        
+    // }
+    // console.log(bap.firstElementChild);
+    // console.log(bap.lastElementChild);
+
+    // hed.forEach(function(j){
+    //   j.style.backgroundColor ="red"
+    //   j.innerHTML = "Hello I Am NEW"
+    
+    // })
+    
+    
+    // const dayone = document.querySelectorAll('.date')
+    // console.log(dayone);
+    // console.log(dayone.bapElement);
+    // console.log(dayone.nextElementSibling);
+
+    
+    // ????????????? new dom ?????????????????
+
+// const neWR = document.createElement('span')
+// console.log(neWR);
+// neWR.className = "uouo"
+// // neWR.setAttribute("class","yoyo")
+//  neWR.innerText = "Chai aur code"
+// // const addd = document.createTextNode("jojoj has bad animatio ")
+// // neWR.appendChild(addd)
+// document.body.appendChild(neWR)
+
+
+// hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+
+function addLanguage(langNme){
+    const li = document.createElement('li');
+    document.querySelector('.language').appendChild(li)
+    li.innerHTML = `${langNme}`
+    }
+    addLanguage("python")
+    addLanguage("typescript")
+
+    function addOptiLanguage(langName){
+        const li = document.createElement('li');
+        document.querySelector('.language').appendChild(li)
+        li.appendChild(document.createTextNode(langName))
+    }
+    addOptiLanguage('golang')
+   
+
+    const firstLang = document.querySelector("li:first-child")
+     firstLang.outerHTML = '<li>TypeScript</li>'
+    
+
+</script>
+
+
+</html>

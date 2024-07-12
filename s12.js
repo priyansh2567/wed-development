@@ -5,7 +5,7 @@ s5.id = "heinsinkn"
 s5.name = "h5654"
 s5.right = true
 
-// console.log(s5);
+console.log(s5);
 
 
 const s6 = {
@@ -20,7 +20,7 @@ const s6 = {
   }
 }
 
-// console.log(s6.fullname.ju);
+console.log(s6.fullname.ju);
 
 const users = [
   {
@@ -46,7 +46,7 @@ console.log(Object. values (s5));
 console.log(Object. entries  (s5));
 
 
-console.log(Object.hasOwnProperty('h5654'));
+console.log(Object.hasOwnProperty('name'));
 
 
 const course = {
@@ -55,12 +55,12 @@ const course = {
   courseInstructor: "hitesh"
 }
 
-// course.courseInstructor
+course.courseInstructor
 
-const {courseInstructor: instructor} = course
+const {price: instructor} = course
 
 console.log(course .courseInstructor);
-// console.log(instructor);
+console.log(instructor);
 
 
 

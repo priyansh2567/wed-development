@@ -1,8 +1,9 @@
 console.log("hello world");
 
+
 const thesnumber= "45543"; 
 let thestring = "yobro ";
-thenonumber =  345;
+let thenonumber =  345;
 var theglobaldtring  =  "yo bro fo ";
 /*
 Prefer not to use var
@@ -15,6 +16,6 @@ theglobaldtring = "go go ";
 thestring = "bro bro "; 
 thenonumber = 689 ;
 
-console.table(theglobaldtring,thesnumber,thestring,thenonumber);
+console.table([theglobaldtring,thesnumber,thestring,thenonumber])
 
 

@@ -27,3 +27,11 @@ const s2 = 34;
 var s3 = 45;
 
 console.log(Array.of(s,s2,s3))
+
+
+function  foo() {
+    var g = 9
+    console.log(g)
+} foo()
+
+console.log(g)

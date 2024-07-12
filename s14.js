@@ -55,3 +55,6 @@ const fun2 = function (h){
 }
 
 console.log(fun2(54))
+
+
+

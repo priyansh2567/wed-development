@@ -25,7 +25,6 @@ console.log(typeof jut[logo])
 console.log(jut.logo)
 console.log(typeof jut.logo)
 console.log(logo)
-console.log(typelogo)
 
 jut.command = function () {
   console.log('execute')

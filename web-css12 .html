@@ -8,18 +8,18 @@
          .box:first-child{
             background-color: aquamarine;
         } 
-         /* .box:first-line{
-            background-color:aquamarine;
-        }  */
-         /* p.box, [data-color="primary"]{
-            padding-top: px;
-        }  */
+         .box:first-line{
+            background-color:rgb(250, 0, 0);
+        } 
+         p.box, [data-color="primary"]{
+            padding-top: 56px;
+        } 
         .box:nth-child(odd){
-            background-color: burlywood;
+            background-color: rgb(165, 118, 57);
             color: brown;
         }
         .box:nth-last-child(3){
-            background-color: rgb(79, 42, 165);
+            background-color: rgb(70, 13, 204);
             color: burlywood;
         }
         .boxe::before{
@@ -31,7 +31,7 @@
             color: chartreuse;
         }
         ::selection{
-            background-color: gold;
+            background-color: rgb(120, 105, 25);
             color: rgb(0, 139, 30);
         }
         .box::first-letter{
@@ -41,7 +41,7 @@
         }
         input::placeholder{
             color: burlywood;
-            background-color: cornflowerblue;
+            background-color: rgb(109, 113, 122);
         }
         
 
@@ -50,7 +50,9 @@
 <body>
     <div class="boxe">
         <div data-color="primary" class="box">hello</div>
-        <div class="box">vello</div>
+        <div class="box">vello
+            <div>drff fdsf gr frfcde</div>
+        </div>
         <div class="box">xello</div>
         <input text="text" placeholder="text heir">
     </div>
